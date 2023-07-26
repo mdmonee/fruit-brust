@@ -19,6 +19,9 @@
     <!-- tailwind and daisy ui -->   
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- lato font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,8 +34,42 @@
     
 </head>
 <body class="font-lato">
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <!-- Navbar -->
+      <div class="navbar bg-rose-500 mt-12 w-10/12 rounded-full relative left-24">
+        <div class="navbar-start hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-white">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+           
+          </div>
+          <div class="flex gap-4 justify-center">
+            <img class="w-10" src="images/logo.png" alt="">
+          <a class=" normal-case text-4xl font-extrabold text-white">Fruit Burst</a>
+          </div>
+
+          
+        </div>
+        <div class="navbar-end">
+          <input class="w-80 rounded-full p-3 m-1" type="search" placeholder="Search here" name="" id="">
+          <i class="fa-solid fa-magnifying-glass relative right-10"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
